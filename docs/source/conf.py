@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Kubeflow on vSphere'
+project = 'MLOps on vSphere'
 copyright = '2021, VMware'
 author = 'VMware'
 
@@ -33,3 +33,9 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+html_static_path = ['_static']
+html_css_files = ["vmw-style.css"]
+
+html_logo = '_static/vm-logo.png'
+html_favicon = 'https://www.vmware.com/favicon.ico'
