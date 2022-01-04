@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-number=34
+number=41
 
 export PATH=/home/liuqi/00-kubectl-vsphere-plugin/bin:$PATH
 export KUBECTL_VSPHERE_PASSWORD="Admin!23"
@@ -21,11 +21,11 @@ spec:
   topology:
     controlPlane:
       count: 1                             #number of control plane nodes
-      class: best-effort-medium            #vmclass for control plane nodes
+      class: best-effort-2xlarge            #vmclass for control plane nodes
       storageClass: pacific-storage-policy     #storageclass for control plane
     workers:
       count: 7                             #number of worker nodes
-      class: best-effort-medium            #vmclass for worker nodes
+      class: best-effort-2xlarge            #vmclass for worker nodes
       storageClass: pacific-storage-policy     #storageclass for worker nodes
   settings:
     storage:

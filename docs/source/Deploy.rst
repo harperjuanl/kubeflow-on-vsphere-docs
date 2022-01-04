@@ -1,8 +1,10 @@
 Deploy
 ======
 
-pipeline
---------
+.. toctree::
+   :maxdepth: 2
 
-model-serving
--------------
+   pipeline
+   model-serving
+
+

@@ -1,12 +1,8 @@
 Model Serving
 =============
 
-.. seealso::
-
-   `Link to the KFServing summary notes <https://dashing-axolotl-95d.notion.site/KFServing-98ca85ba483841cc84697512fffef916>`_
-
-Model Serving Basics
---------------------
+Basic Concepts of Model Management
+----------------------------------
 
 Background
 ++++++++++
@@ -38,8 +34,9 @@ The Figure1 shows the architecture of the model inference,
    Figure 1 - The Workflow of Model Serving.
 
 
-KServe Basics
--------------
+
+Introduction to KServe
+----------------------
 
 Overview
 ++++++++
@@ -110,8 +107,9 @@ KServe's Services and Features
 * Kafka
 
 
-Using KServe
-------------
+
+Managing Models with KServe
+---------------------------
 
 Environments
 ++++++++++++
